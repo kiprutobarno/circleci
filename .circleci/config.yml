@@ -35,11 +35,11 @@ jobs:
 
       # run tests!
       - run: yarn test
-workflows:
-  version: 2
-  main:
-    jobs:
-    - build:
-        filters:
-          branches:
-            only: develop
+# workflows:
+#   version: 2
+#   main:
+#     jobs:
+#     - build:
+#         filters:
+#           branches:
+#             only: develop
